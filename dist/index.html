@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header id="header">
+<div id="logo">
+      <img id="header-img"
+   src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/d7fa5c32-3e17-4041-9ff8-e5827ff120cc" alt="3D image of Tesla Logo"/>
+    <h1>Copycat Tesla Showroom</h1>
+    </div>
+  <h3>Best place to get a bargain</h3>
+         <nav id="nav-bar" class="nav-bar">
+         <a class="nav-link" href="#models">Cars</a> |
+      <a class="nav-link" href="#Solar-Roof">Solar Roof</a> |
+        <a class="nav-link" href="#Contact-Us">Contact Us</a>
+          </nav>
+  </header>
+<main id="main" class="main">
+ <figure id="video1">
+  <iframe class="video" id="video" width="560" height="315" src="https://www.youtube.com/embed/c548sOrKBxI"
+            frameborder="0" allowfullscreen></iframe>
+        <figcaption><i>Short youtube video of Tesla car models.</i></figcaption>
+  </figure>
+<section id="products">
+  <div id="models">
+  <h2 style="color: blue">Cars</h2>
+        <ul>
+          <li>Model S</li>
+          <li>Model 3</li>
+          <li>Model X</li>
+          <li>Model Y</li>
+  </ul>
+    </div>
+<div id="Solar-Roof">
+        <h2 style="color:blue;">Solar Roof Details</h2>
+        <ul>
+          <li>Solar Panels</li>
+          <li>Integrated Solar Roof</li>
+         </ul>
+    </div>
+</section>
+<div id="Contact-Us">
+        <h2>Contact Us</h2>
+  <fieldset id="field">
+    <legend>Fill in your contact details</legend>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email">
+        <input id="submit" type="Submit">
+    </form>
+  </fieldset>
+  <p>To Calculate your Solar Power requirements<a id="tribute-link" href="https://www.tesla.com/en_gb/powerwall/design" target="_blank"> click here</a></p>
+  </div>
+    </main>
+<hr>
+<footer class="footer">
+  <h2>&copy; 2021 Copy Tesla Showroom</h2>
+</footer>
+<!-- partial -->
+  
+</body>
+</html>
